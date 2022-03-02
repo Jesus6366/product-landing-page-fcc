@@ -1,0 +1,131 @@
+body{
+	background-color: #eee;
+	  
+	}
+	
+	@media only screen and (max-width:800px){
+	  #video{
+	   height:200px;
+	   width:350px;
+	  }
+	}
+	
+	@media only screen and (max-width: 800px) {
+	 .img2{
+		height:250px;
+	  }
+	}
+	@media only screen and (max-width: 800px) {
+		html {
+		   font-size:12px;
+		 }
+	   }
+	
+	header {
+		 position: sticky;
+	  top: 0;
+		display: flex;
+		padding: 8px;
+		background: black;
+		justify-content: space-around;
+		align-items: center;
+	
+	}
+	
+	ul {
+	
+		display: flex;
+		list-style: none;
+		width: 30vw;
+		justify-content: space-around;
+		/*to give space between links like in this case 
+		make the flex (Box) bigger with:  widght then you will
+		 be able to use justify-content: space-around;*/
+	
+	}
+	
+	a {
+		text-decoration: none;
+		color: white;
+		
+	}
+	
+	li{
+		list-style: none;
+		
+	}
+	
+	
+	#mainpage{
+	 
+	 display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1em 5em;
+	padding: 0;
+	
+	}
+	
+	.title {
+	
+		padding: 10px;
+	}
+	
+	#email{
+	
+		max-width: 275px;
+		width: 100%;
+		padding: 5px;
+	}
+	
+	#submit {
+	
+		margin: 20px;
+		background-color: #f1c40f;
+		max-width: 150px;
+		width: 100%;
+		height: 30px;
+		font-weight: 700;
+		margin-bottom: 30px;
+		border-radius: 5px;
+		border-style: none;
+		cursor: pointer;
+		transition: 0.5s;
+	}
+	
+	#submit:hover {background-color: #b59205}
+	
+	h2{
+		padding: 0;
+	}
+	
+	.footer {
+	
+		border: 2px solid black;
+		border-radius: 5px;
+		padding: 10px;
+		text-align: center;
+		margin-top: 80px;
+	}
+	
+	button {
+	
+		background-color: #f1c40f;
+		border-radius: 5px;
+		height: 50px;
+		width: 150px;
+		border-style: none;
+		cursor: pointer;
+		transition: 0.5s;
+	}
+	
+	button:hover {background-color: #b59205}
+	
+	footer {
+	
+		background-color: black;
+		font-size: 16px;
+		color: white;
+		padding: 20px;
+		text-align: center;
+	}
